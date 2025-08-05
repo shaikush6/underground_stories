@@ -1,0 +1,17 @@
+2025-08-04 20:39:42,861 - UndergroundAPI - INFO - ⚠️ YouTube uploader not available (missing dependencies)
+2025-08-04 20:39:42,861 - UndergroundAPI - INFO - ⚠️ Weekly scheduler not available (missing dependencies)
+2025-08-04 20:39:42,861 - UndergroundAPI - INFO - 🚀 Underground Stories API initialized
+2025-08-04 20:39:49,127 - UndergroundAPI - INFO - ⚠️ YouTube uploader not available (missing dependencies)
+2025-08-04 20:39:49,128 - UndergroundAPI - INFO - ⚠️ Weekly scheduler not available (missing dependencies)
+2025-08-04 20:39:49,128 - UndergroundAPI - INFO - 🚀 Underground Stories API initialized
+2025-08-04 20:40:33,659 - UndergroundAPI - INFO - ⚠️ YouTube uploader not available (missing dependencies)
+2025-08-04 20:40:33,660 - UndergroundAPI - INFO - ⚠️ Weekly scheduler not available (missing dependencies)
+2025-08-04 20:40:33,660 - UndergroundAPI - INFO - 🚀 Underground Stories API initialized
+2025-08-04 21:09:01,788 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-04 21:09:01,790 - UndergroundAPI - INFO - ✅ YouTube API connected
+2025-08-04 21:09:01,790 - UndergroundAPI - INFO - ⚠️ Weekly scheduler not available (missing dependencies)
+2025-08-04 21:09:01,790 - UndergroundAPI - INFO - 🚀 Underground Stories API initialized
+2025-08-04 21:11:01,756 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-04 21:11:01,759 - UndergroundAPI - INFO - ✅ YouTube API connected
+2025-08-04 21:11:01,759 - UndergroundAPI - INFO - ⚠️ Weekly scheduler not available (missing dependencies)
+2025-08-04 21:11:01,759 - UndergroundAPI - INFO - 🚀 Underground Stories API initialized

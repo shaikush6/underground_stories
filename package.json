@@ -1,0 +1,37 @@
+{
+  "name": "audiobook_generator",
+  "version": "1.0.0",
+  "description": "**Multi-Pipeline Content Generation for Automated YouTube Publishing**",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "remotion preview src/remotion/Root.tsx",
+    "build": "remotion render src/remotion/Root.tsx",
+    "render": "remotion render src/remotion/Root.tsx huff-and-heal out/huff-and-heal.mp4",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaikush6/audiobook_generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaikush6/audiobook_generator/issues"
+  },
+  "homepage": "https://github.com/shaikush6/audiobook_generator#readme",
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "remotion": "^4.0.331"
+  },
+  "devDependencies": {
+    "@remotion/cli": "^4.0.331",
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7",
+    "typescript": "^5.9.2"
+  }
+}

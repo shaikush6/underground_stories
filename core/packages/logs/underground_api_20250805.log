@@ -1,0 +1,48 @@
+2025-08-05 10:20:01,083 - UndergroundAPI - INFO - ⚠️ YouTube uploader not available (missing dependencies)
+2025-08-05 10:20:01,083 - UndergroundAPI - INFO - ⚠️ Weekly scheduler not available (missing dependencies)
+2025-08-05 10:20:01,083 - UndergroundAPI - INFO - 🚀 Underground Stories API initialized
+2025-08-05 10:20:35,237 - UndergroundAPI - INFO - ⚠️ YouTube uploader not available (missing dependencies)
+2025-08-05 10:20:35,237 - UndergroundAPI - INFO - ⚠️ Weekly scheduler not available (missing dependencies)
+2025-08-05 10:20:35,237 - UndergroundAPI - INFO - 🚀 Underground Stories API initialized
+2025-08-05 10:20:35,237 - UndergroundAPI - INFO - ⚡ Generating Minute Myths video: Perseus and Medusa
+2025-08-05 10:20:35,237 - minute_myths.content_multiplier - INFO - Minute Myths Multiplier initialized for 1000+ shorts generation
+2025-08-05 10:20:35,237 - packages.minute_myths.video_generator - INFO - Minute Myths Video Generator initialized for mobile-first content
+2025-08-05 10:20:35,237 - packages.minute_myths.video_generator - INFO - Generating single video: Perseus and Medusa - main_story
+2025-08-05 10:20:35,237 - minute_myths.content_multiplier - INFO - Minute Myths Multiplier initialized for 1000+ shorts generation
+2025-08-05 10:20:35,237 - minute_myths.content_multiplier - INFO - Multiplying content for: Perseus and Medusa (Greek Mythology)
+2025-08-05 10:20:35,237 - minute_myths.content_multiplier - INFO - Generated 8 content pieces for Perseus and Medusa
+2025-08-05 10:20:35,468 - packages.core.video.ai_image_generator - WARNING - ⚠️ OPENAI_API_KEY not found - DALL-E disabled
+2025-08-05 10:20:35,468 - packages.core.video.ai_image_generator - INFO - AI Image Generator initialized
+2025-08-05 10:20:35,468 - minute_myths.content_multiplier - INFO - 🎨 Generating Minute Myths image: Perseus and Medusa_main_story_01.jpg
+2025-08-05 10:20:35,469 - packages.core.video.ai_image_generator - INFO - 🎨 Generating new image for: Perseus and Medusa - The Complete Story
+2025-08-05 10:20:35,469 - minute_myths.content_multiplier - ERROR - ❌ Image generation failed: No AI image generation services available
+2025-08-05 10:20:35,469 - minute_myths.content_multiplier - INFO - Content generated: Perseus and Medusa - The Complete Story
+2025-08-05 10:20:35,469 - packages.minute_myths.video_generator - INFO - Final video composition ready: content/minute-myths/final_videos/Perseus_and_Medusa___The_Complete_Story_01.mp4_composition.json
+2025-08-05 10:25:15,797 - UndergroundAPI - INFO - ⚠️ YouTube uploader not available (missing dependencies)
+2025-08-05 10:25:15,797 - UndergroundAPI - INFO - ⚠️ Weekly scheduler not available (missing dependencies)
+2025-08-05 10:25:15,798 - UndergroundAPI - INFO - 🚀 Underground Stories API initialized
+2025-08-05 10:27:03,401 - UndergroundAPI - INFO - ⚠️ YouTube uploader not available (missing dependencies)
+2025-08-05 10:27:03,401 - UndergroundAPI - INFO - ⚠️ Weekly scheduler not available (missing dependencies)
+2025-08-05 10:27:03,401 - UndergroundAPI - INFO - 🚀 Underground Stories API initialized
+2025-08-05 10:27:03,401 - UndergroundAPI - INFO - ⚡ Generating Minute Myths video: Perseus and Medusa
+2025-08-05 10:27:03,401 - minute_myths.content_multiplier - INFO - Minute Myths Multiplier initialized for 1000+ shorts generation
+2025-08-05 10:27:03,401 - packages.minute_myths.video_generator - INFO - Minute Myths Video Generator initialized for mobile-first content
+2025-08-05 10:27:03,401 - packages.minute_myths.video_generator - INFO - Generating single video: Perseus and Medusa - main_story
+2025-08-05 10:27:03,401 - minute_myths.content_multiplier - INFO - Minute Myths Multiplier initialized for 1000+ shorts generation
+2025-08-05 10:27:03,401 - minute_myths.content_multiplier - INFO - Multiplying content for: Perseus and Medusa (Greek Mythology)
+2025-08-05 10:27:03,401 - minute_myths.content_multiplier - INFO - Generated 8 content pieces for Perseus and Medusa
+2025-08-05 10:27:03,642 - packages.core.video.ai_image_generator - INFO - ✅ OpenAI DALL-E available
+2025-08-05 10:27:03,642 - packages.core.video.ai_image_generator - INFO - AI Image Generator initialized
+2025-08-05 10:27:03,642 - minute_myths.content_multiplier - INFO - 🎨 Generating Minute Myths image: Perseus and Medusa_main_story_01.jpg
+2025-08-05 10:27:03,642 - packages.core.video.ai_image_generator - INFO - 🎨 Generating new image for: Perseus and Medusa - The Complete Story
+2025-08-05 10:27:03,642 - packages.core.video.ai_image_generator - INFO - 🎨 Generating with DALL-E 3...
+2025-08-05 10:27:03,642 - packages.core.video.ai_image_generator - INFO - 📝 Prompt: Epic illustration of Perseus and Medusa, Greek Mythology mythology style, dramatic and engaging, mob...
+2025-08-05 10:27:03,642 - packages.core.video.ai_image_generator - INFO - 📱 Using mobile 9:16 format for minute-myths
+2025-08-05 10:27:31,186 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/images/generations "HTTP/1.1 200 OK"
+2025-08-05 10:27:35,369 - packages.core.video.ai_image_generator - INFO - 📁 Image downloaded: /Users/shai-shalomhadad/PyCharm_Projects/audiobook_generator/content/episode_images/Perseus and Medusa_main_story_01.jpg
+2025-08-05 10:27:35,371 - packages.core.video.ai_image_generator - INFO - ✅ Image generated successfully!
+2025-08-05 10:27:35,371 - packages.core.video.ai_image_generator - INFO -    📁 Saved to: /Users/shai-shalomhadad/PyCharm_Projects/audiobook_generator/content/episode_images/Perseus and Medusa_main_story_01.jpg
+2025-08-05 10:27:35,371 - packages.core.video.ai_image_generator - INFO -    ⏱️ Generation time: 31.7s
+2025-08-05 10:27:35,371 - minute_myths.content_multiplier - INFO - ✅ Generated: /Users/shai-shalomhadad/PyCharm_Projects/audiobook_generator/content/episode_images/Perseus and Medusa_main_story_01.jpg (31.7s)
+2025-08-05 10:27:35,373 - minute_myths.content_multiplier - INFO - Content generated: Perseus and Medusa - The Complete Story
+2025-08-05 10:27:35,374 - packages.minute_myths.video_generator - INFO - Final video composition ready: content/minute-myths/final_videos/Perseus_and_Medusa___The_Complete_Story_01.mp4_composition.json

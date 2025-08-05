@@ -1,0 +1,93 @@
+# Voice Configuration Profiles for TTS Providers
+# Updated: 2025-01-02
+
+# Timeless, Retold - Classic Literature (Google Neural2)
+timeless_retold:
+  provider: "google"
+  voice: "en-US-Neural2-J"  # Professional male narrator
+  language_code: "en-US"
+  speed: 1.0               # Normal pace for literary content
+  pitch: 0                 # Neutral pitch
+  volume_gain_db: 0        # Standard volume
+  sample_rate_hertz: 24000 # High quality audio
+  audio_encoding: "MP3"
+  speaking_rate: 1.0
+  
+  # Episode settings
+  target_duration_minutes: 10
+  max_characters_per_episode: 7500  # ~10 minutes at 150 words/min
+  break_markers: ["---", "***", "Chapter", "CHAPTER"]
+
+# Fairer Tales - Villain POV Stories (OpenAI TTS)  
+fairer_tales:
+  provider: "openai"
+  voice: "ash"             # Your proven voice choice
+  model: "tts-1"           # Standard quality, cost-effective
+  speed: 1.0               # Natural storytelling pace
+  response_format: "mp3"
+  
+  # Episode settings
+  target_duration_minutes: 5
+  max_characters_per_episode: 3750   # ~5 minutes at 150 words/min
+  episodes_per_story: 5              # Target episodes per complete story
+  break_markers: ["Scene", "---", "***"]
+
+# Minute Myths - Viral Shorts (Google Chirp3 HD)
+minute_myths:
+  provider: "google"
+  voice: "en-US-Chirp3-HD-A"  # Premium voice for engagement
+  language_code: "en-US"
+  speed: 1.1                   # Slightly faster for shorts
+  pitch: 0.5                   # Slightly higher for energy
+  volume_gain_db: 2            # Slightly louder for mobile
+  sample_rate_hertz: 24000
+  audio_encoding: "MP3"
+  speaking_rate: 1.1
+  
+  # Shorts settings
+  target_duration_seconds: 60
+  max_characters_per_short: 750     # ~60 seconds at 150 words/min + faster pace
+  hook_optimization: true           # Front-load exciting content
+  viral_markers: ["twist", "revelation", "shocking"]
+
+# Alternative voices for variety
+voice_alternatives:
+  timeless_retold_female: "en-US-Neural2-F"
+  timeless_retold_british: "en-GB-Neural2-B"
+  fairer_tales_alt: "nova"  # OpenAI alternative
+  minute_myths_energetic: "en-US-Chirp3-HD-B"
+
+# Provider-specific settings
+providers:
+  google:
+    api_endpoint: "https://texttospeech.googleapis.com/v1/text:synthesize"
+    max_characters: 50000      # High limit
+    cost_per_million_chars: 16 # Neural2 pricing
+    rate_limit: 100            # Requests per minute
+    
+  openai:
+    api_endpoint: "https://api.openai.com/v1/audio/speech"
+    max_characters: 4096       # Character limit
+    cost_per_million_chars: 15 # TTS pricing
+    rate_limit: 50             # Requests per minute
+    
+  elevenlabs:  # Future premium option
+    api_endpoint: "https://api.elevenlabs.io/v1/text-to-speech"
+    max_characters: 5000
+    cost_per_million_chars: 165  # Standard plan
+    rate_limit: 20
+
+# Quality settings
+quality_standards:
+  min_audio_bitrate: 128      # kbps
+  max_silence_duration: 2     # seconds
+  normalize_audio: true
+  remove_background_noise: false  # Keep natural for storytelling
+  
+# Content optimization
+content_optimization:
+  remove_markdown: true
+  expand_abbreviations: true
+  spell_out_numbers: false    # Keep natural "1942" not "nineteen forty-two"
+  add_natural_pauses: true    # Insert <break> tags
+  optimize_for_mobile: true   # Consider mobile listening
